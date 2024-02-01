@@ -1,4 +1,4 @@
-import React from "react";
+import React from "React";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -18,8 +18,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/needs",
+        path: "/needs/:id",
         element: <Needs />,
+        loader: ({ params }) => {
+          return (params);
+        },
       },
       {
         path: "/help",

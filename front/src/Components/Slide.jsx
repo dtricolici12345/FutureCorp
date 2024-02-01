@@ -1,17 +1,15 @@
-import img from "./Rectangle13.png";
-
 import "./Slide.css";
 
-function Slide() {
+function Slide({ slideData, objective }) {
   return (
     <section id="slide">
       <aside className="img-container">
-        <img src={img} alt="slide" />
+        <img src={`http://localhost:4242${slideData.imageUrl}`} alt="slide" />
       </aside>
       <article className="info-container">
-        <h2>OBJECTIF : TROUVER DE L'EAU</h2>
-        <h3>1. Recherche de source d'eau</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laudantium laboriosam ab. Vel rerum nam debitis vitae dolorem, fugit nesciunt officia at laborum nemo assumenda ducimus cupiditate illo quam natus.</p>
+        <h2>OBJECTIF : {objective}</h2>
+        <h3>{`${slideData.number}. ${slideData.step}`}</h3>
+        <p>{slideData.desc}</p>
       </article>
     </section>
   );
