@@ -18,8 +18,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/needs",
+        path: "/needs/:id",
         element: <Needs />,
+        loader: ({ params }) => {
+          return (params);
+        },
       },
       {
         path: "/help",

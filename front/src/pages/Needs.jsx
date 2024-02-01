@@ -1,33 +1,34 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
 
-import CarouselComponent from "../Components/CarouselComponent.jsx";
-
-import Logo from "./../assets/Logo.png";
+import CarouselComponent from "./../components/CarouselComponent.jsx"
 
 import "./Needs.css";
 
-function Needs() {
-  const [data, setData] = useState([]);
+function Needs() {  
+  const { id } = useLoaderData();
 
-  /*useEffect(() => {
-    fetch("")
-      .then((res) => res.json)
-      .then((data) => setData(data));
-  }, []);*/
+  const [carouselData, setCarouselData] = useState([]);
+  const [objective, setObjective] = useState("");
+
+  useEffect(()=> {
+    fetch("http://localhost:4242/db")
+    .then(res => res.json())
+    .then(data => {
+      setCarouselData(data[id].instructions);
+      setObjective(data[id].objective);
+    })
+  }, []);
 
   return (
     <section id="needs">
-      <img src={Logo} alt="Logo" />
-      <h1>J'ai soif !</h1>
-      <CarouselComponent data={data} />
-      {" "}
-      <div id="dots">
+      <CarouselComponent carouselData={carouselData} objective={objective} />
+      {/* <div id="dots">
         <div className="dot"></div>
         <div className="dot selected"></div>
         <div className="dot"></div>
         <div className="dot"></div>
-      </div>
-      
+      </div> */}
     </section>
   );
 }

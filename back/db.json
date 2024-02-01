@@ -1,132 +1,130 @@
-{
-  "needs": [
-    {
-      "id": 1,
-      "title": "J'ai soif",
-      "imageThumbnail": "/static/Need1-Step1.jpg",
-      "objective": "Trouver de l'eau",
-      "instructions": [
-        {
-          "number": "1",
-          "imageUrl": "/static/1_1.jpg",
-          "step": "Recherche de source d’eau",
-          "desc": "Explore les environs à la recherche de sources d'eau telles que rivières, lacs ou sources. "
-        },
-        {
-          "number": "2",
-          "imageUrl": "/static/1_2.jpg",
-          "step": "Utilisation de Contenants naturels ",
-          "desc": "Utilise des éléments naturels tels que des feuilles larges, des coquilles ou des morceaux d'écorce pour créer des contenants et transporter l'eau jusqu'à ton abri."
-        },
-        {
-          "number": "3",
-          "imageUrl": "/static/1_3.jpg",
-          "step": "Filtration et Purification ",
-          "desc": "Si l'eau semble impure, utilise des matériaux naturels comme du sable ou des pierres pour filtrer les particules. Chauffe l'eau au-dessus du feu pour tuer les bactéries et les agents pathogènes."
-        },
-        {
-          "number": "4",
-          "imageUrl": "/static/1_4.jpg",
-          "step": "Stockage et partage",
-          "desc": "Stocke l'eau dans des récipients improvisés pour en assurer la disponibilité. Le partage avec d'autres membres de ta tribu favorise la coopération et garantit que tous ont accès à l'eau potable."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "J'ai faim",
-      "imageThumbnail": "/static/Need1-Step1.jpg",
-      "objective": "Trouver de la nourriture",
-      "instructions": [
-        {
-          "number": "1",
-          "imageUrl": "/static/2-1.jpg",
-          "step": "Chasse ou Pêche",
-          "desc": "Utilise des outils rudimentaires comme des pierres tranchantes ou des pointes de bois pour chasser des animaux sauvages ou pêcher dans les cours d'eau à proximité."
-        },
-        {
-          "number": "2",
-          "imageUrl": "/static/2-2.jpg",
-          "step": "Collecte de Plantes et de Fruits",
-          "desc": "Explore les environs à la recherche de plantes comestibles, de racines, de baies et de fruits. Assure-toi de connaître les plantes sûres à manger."
-        },
-        {
-          "number": "3",
-          "imageUrl": "/static/2-3.jpg",
-          "step": "Préparation du Feu",
-          "desc": "Utilise des méthodes primitives comme le frottement de bois pour créer du feu. Le feu sera essentiel pour cuire la viande, rendant ainsi la nourriture plus digeste et sûre à manger."
-        },
-        {
-          "number": "4",
-          "imageUrl": "/static/2-4.jpg",
-          "step": "Cuisson et Partage",
-          "desc": "Place la viande ou les plantes sur le feu pour les cuire. Le partage avec d'autres membres de ta tribu renforce les liens sociaux et garantit une répartition équitable des ressources."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "J'ai froid",
-      "imageThumbnail": "/static/Need1-Step1.jpg",
-      "objective": "Se réchauffer",
-      "instructions": [
-        {
-          "number": "1",
-          "imageUrl": "/static/3_1.jpg",
-          "step": "Collecte de Matériaux Isolants ",
-          "desc": "Recherche des matériaux naturels tels que des feuilles, des branches ou de la mousse pour créer un lit isolant sur le sol. Cela aidera à te protéger du froid venant du sol."
-        },
-        {
-          "number": "2",
-          "imageUrl": "/static/3_2.jpg",
-          "step": "Construction d'Abri",
-          "desc": "Utilise des branches, des feuilles et d'autres matériaux disponibles pour construire un abri rudimentaire. Assure-toi qu'il est bien fermé pour minimiser l'exposition aux éléments."
-        },
-        {
-          "number": "3",
-          "imageUrl": "/static/3_3.jpg",
-          "step": "Allumage d'un Feu",
-          "desc": "Maîtrise les techniques primitives pour allumer un feu. Le feu fournit non seulement de la chaleur, mais peut également être utilisé pour cuire des aliments et éclairer l'abri."
-        },
-        {
-          "number": "4",
-          "imageUrl": "/static/3_4.jpg",
-          "step": "Fabrication de Vêtements ou Couvertures",
-          "desc": "Utilise des peaux d'animaux ou d'autres matériaux disponibles pour créer des vêtements ou des couvertures qui te protègeront du vent et du froid. La couche isolante aidera à conserver la chaleur corporelle."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Je m'ennuie",
-      "imageThumbnail": "/static/Need1-Step1.jpg",
-      "objective": "Se divertir",
-      "instructions": [
-        {
-          "number": "1",
-          "imageUrl": "/static/4-1.jpg",
-          "step": "Création d'Outils ou d'Artisanat",
-          "desc": "Utilise des pierres, des os ou d'autres matériaux disponibles pour créer des outils, des armes ou des objets artisanaux. Cette activité peut être à la fois divertissante et fonctionnelle pour la communauté."
-        },
-        {
-          "number": "2",
-          "imageUrl": "/static/4-2.jpg",
-          "step": "Exploration et Découverte ",
-          "desc": "Explore les environs à la recherche de nouvelles ressources, d'animaux ou de plantes inconnus. Cette exploration peut être une activité stimulante qui contribue également à la survie de la tribu."
-        },
-        {
-          "number": "3",
-          "imageUrl": "/static/4-3.jpg",
-          "step": "Initiation de Jeux ou de Rituels Sociaux ",
-          "desc": "Organise des jeux simples ou initie des rituels sociaux au sein de la tribu. Ces activités renforcent les liens communautaires, apportant un sentiment de camaraderie."
-        },
-        {
-          "number": "4",
-          "imageUrl": "/static/4-4.jpg",
-          "step": "Narration d'Histoires ou d'Événements",
-          "desc": "Partage des histoires orales sur les expériences passées, les chasses réussies ou les légendes de la tribu. Cela peut être un moyen captivant de passer le temps tout en transmettant la culture et l'histoire."
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "J'ai soif",
+    "imageThumbnail": "/static/Need1-Step1.jpg",
+    "objective": "Trouver de l'eau",
+    "instructions": [
+      {
+        "number": "1",
+        "imageUrl": "/static/1_1.jpg",
+        "step": "Recherche de source d’eau",
+        "desc": "Explore les environs à la recherche de sources d'eau telles que rivières, lacs ou sources. "
+      },
+      {
+        "number": "2",
+        "imageUrl": "/static/1_2.jpg",
+        "step": "Utilisation de Contenants naturels ",
+        "desc": "Utilise des éléments naturels tels que des feuilles larges, des coquilles ou des morceaux d'écorce pour créer des contenants et transporter l'eau jusqu'à ton abri."
+      },
+      {
+        "number": "3",
+        "imageUrl": "/static/1_3.jpg",
+        "step": "Filtration et Purification ",
+        "desc": "Si l'eau semble impure, utilise des matériaux naturels comme du sable ou des pierres pour filtrer les particules. Chauffe l'eau au-dessus du feu pour tuer les bactéries et les agents pathogènes."
+      },
+      {
+        "number": "4",
+        "imageUrl": "/static/1_4.jpg",
+        "step": "Stockage et partage",
+        "desc": "Stocke l'eau dans des récipients improvisés pour en assurer la disponibilité. Le partage avec d'autres membres de ta tribu favorise la coopération et garantit que tous ont accès à l'eau potable."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "J'ai faim",
+    "imageThumbnail": "/static/Need1-Step1.jpg",
+    "objective": "Trouver de la nourriture",
+    "instructions": [
+      {
+        "number": "1",
+        "imageUrl": "/static/2-1.jpg",
+        "step": "Chasse ou Pêche",
+        "desc": "Utilise des outils rudimentaires comme des pierres tranchantes ou des pointes de bois pour chasser des animaux sauvages ou pêcher dans les cours d'eau à proximité."
+      },
+      {
+        "number": "2",
+        "imageUrl": "/static/2-2.jpg",
+        "step": "Collecte de Plantes et de Fruits",
+        "desc": "Explore les environs à la recherche de plantes comestibles, de racines, de baies et de fruits. Assure-toi de connaître les plantes sûres à manger."
+      },
+      {
+        "number": "3",
+        "imageUrl": "/static/2-3.jpg",
+        "step": "Préparation du Feu",
+        "desc": "Utilise des méthodes primitives comme le frottement de bois pour créer du feu. Le feu sera essentiel pour cuire la viande, rendant ainsi la nourriture plus digeste et sûre à manger."
+      },
+      {
+        "number": "4",
+        "imageUrl": "/static/2-4.jpg",
+        "step": "Cuisson et Partage",
+        "desc": "Place la viande ou les plantes sur le feu pour les cuire. Le partage avec d'autres membres de ta tribu renforce les liens sociaux et garantit une répartition équitable des ressources."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "J'ai froid",
+    "imageThumbnail": "/static/Need1-Step1.jpg",
+    "objective": "Se réchauffer",
+    "instructions": [
+      {
+        "number": "1",
+        "imageUrl": "/static/3_1.jpg",
+        "step": "Collecte de Matériaux Isolants ",
+        "desc": "Recherche des matériaux naturels tels que des feuilles, des branches ou de la mousse pour créer un lit isolant sur le sol. Cela aidera à te protéger du froid venant du sol."
+      },
+      {
+        "number": "2",
+        "imageUrl": "/static/3_2.jpg",
+        "step": "Construction d'Abri",
+        "desc": "Utilise des branches, des feuilles et d'autres matériaux disponibles pour construire un abri rudimentaire. Assure-toi qu'il est bien fermé pour minimiser l'exposition aux éléments."
+      },
+      {
+        "number": "3",
+        "imageUrl": "/static/3_3.jpg",
+        "step": "Allumage d'un Feu",
+        "desc": "Maîtrise les techniques primitives pour allumer un feu. Le feu fournit non seulement de la chaleur, mais peut également être utilisé pour cuire des aliments et éclairer l'abri."
+      },
+      {
+        "number": "4",
+        "imageUrl": "/static/3_4.jpg",
+        "step": "Fabrication de Vêtements ou Couvertures",
+        "desc": "Utilise des peaux d'animaux ou d'autres matériaux disponibles pour créer des vêtements ou des couvertures qui te protègeront du vent et du froid. La couche isolante aidera à conserver la chaleur corporelle."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Je m'ennuie",
+    "imageThumbnail": "/static/Need1-Step1.jpg",
+    "objective": "Se divertir",
+    "instructions": [
+      {
+        "number": "1",
+        "imageUrl": "/static/4-1.jpg",
+        "step": "Création d'Outils ou d'Artisanat",
+        "desc": "Utilise des pierres, des os ou d'autres matériaux disponibles pour créer des outils, des armes ou des objets artisanaux. Cette activité peut être à la fois divertissante et fonctionnelle pour la communauté."
+      },
+      {
+        "number": "2",
+        "imageUrl": "/static/4-2.jpg",
+        "step": "Exploration et Découverte ",
+        "desc": "Explore les environs à la recherche de nouvelles ressources, d'animaux ou de plantes inconnus. Cette exploration peut être une activité stimulante qui contribue également à la survie de la tribu."
+      },
+      {
+        "number": "3",
+        "imageUrl": "/static/4-3.jpg",
+        "step": "Initiation de Jeux ou de Rituels Sociaux ",
+        "desc": "Organise des jeux simples ou initie des rituels sociaux au sein de la tribu. Ces activités renforcent les liens communautaires, apportant un sentiment de camaraderie."
+      },
+      {
+        "number": "4",
+        "imageUrl": "/static/4-4.jpg",
+        "step": "Narration d'Histoires ou d'Événements",
+        "desc": "Partage des histoires orales sur les expériences passées, les chasses réussies ou les légendes de la tribu. Cela peut être un moyen captivant de passer le temps tout en transmettant la culture et l'histoire."
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+#carousel {
+  margin-top: 2rem;
+}
+
+.img-container {
+  background-color: var(--container-color);
+
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 0.2rem;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.info-container {
+  background-color: var(--container-color);
+
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.info-container h2 {
+  margin-left: 0.25rem;
+
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.info-container h3 {
+  margin: 1rem 0;
+
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.info-container p {
+  margin: 0.5rem;
+  margin-top: 0;
+
+  font-size: 0.875rem;
+  font-weight: 500;
+}
