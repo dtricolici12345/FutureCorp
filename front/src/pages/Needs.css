@@ -30,15 +30,24 @@
   justify-content: center;
 
   gap: 2rem ;
+
+  margin-bottom: 2rem;
 }
 
 .dot {
-  height: 32px;
-  width: 32px;
+  height: 28px;
+  width: 28px;
 
   background-color: lightgray;
 
   border-radius: 50%;
 
-  margin-bottom: 3rem;
+  margin: auto 0;
+}
+
+.dot.selected {
+  height: 32px;
+  width: 32px;
+
+  background-color: gray;
 }
