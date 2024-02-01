@@ -12,7 +12,7 @@ function Needs() {
   const [objective, setObjective] = useState("");
 
   useEffect(()=> {
-    fetch("http://localhost:4242/db")
+    fetch("http://localhost:4242/needs")
     .then(res => res.json())
     .then(data => {
       setCarouselData(data[id].instructions);

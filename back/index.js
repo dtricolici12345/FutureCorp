@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const db = require("./db.json");
+const needs = require("./needs.json");
 
 app.use(cors("*"));
 
@@ -11,8 +11,8 @@ app.get("/", (req, res) => {
   res.send("je suis dans le '/'");
 });
 
-app.get("/db", (req, res) => {
-  res.json(db);
+app.get("/needs", (req, res) => {
+  res.json(needs);
 });
 
 app.listen("4242", console.log("http://localhost:4242"));
