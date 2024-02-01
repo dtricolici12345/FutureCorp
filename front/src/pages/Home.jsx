@@ -1,8 +1,8 @@
 import image1 from "../assets/nourriture.png";
-import ButtonNav from "../components/ButtonNav";
 import image2 from "../assets/boisson.png";
 import image3 from "../assets/feu.png";
 import image4 from "../assets/repos.png";
+import ButtonNav from "../components/ButtonNav";
 
 
 function Home() {
