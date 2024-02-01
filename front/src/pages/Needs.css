@@ -1,0 +1,44 @@
+#needs {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#needs img {
+  height: 128px;
+  width: 128px;
+
+  align-self: end;
+}
+
+#needs h1 {
+  padding-left: 1rem;
+}
+
+#carousel{
+  height: 50%;
+  width: 100%;
+  background-color: lightsalmon;
+}
+
+#dots {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 2rem ;
+}
+
+.dot {
+  height: 32px;
+  width: 32px;
+
+  background-color: lightgray;
+
+  border-radius: 50%;
+
+  margin-bottom: 3rem;
+}
