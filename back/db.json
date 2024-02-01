@@ -8,25 +8,25 @@
       "instructions": [
         {
           "number": "1",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/1_1.jpg",
           "step": "Recherche de source d’eau",
           "desc": "Explore les environs à la recherche de sources d'eau telles que rivières, lacs ou sources. "
         },
         {
           "number": "2",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/1_2.jpg",
           "step": "Utilisation de Contenants naturels ",
           "desc": "Utilise des éléments naturels tels que des feuilles larges, des coquilles ou des morceaux d'écorce pour créer des contenants et transporter l'eau jusqu'à ton abri."
         },
         {
           "number": "3",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/1_3.jpg",
           "step": "Filtration et Purification ",
           "desc": "Si l'eau semble impure, utilise des matériaux naturels comme du sable ou des pierres pour filtrer les particules. Chauffe l'eau au-dessus du feu pour tuer les bactéries et les agents pathogènes."
         },
         {
           "number": "4",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/1_4.jpg",
           "step": "Stockage et partage",
           "desc": "Stocke l'eau dans des récipients improvisés pour en assurer la disponibilité. Le partage avec d'autres membres de ta tribu favorise la coopération et garantit que tous ont accès à l'eau potable."
         }
@@ -72,25 +72,25 @@
       "instructions": [
         {
           "number": "1",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/3_1.jpg",
           "step": "Collecte de Matériaux Isolants ",
           "desc": "Recherche des matériaux naturels tels que des feuilles, des branches ou de la mousse pour créer un lit isolant sur le sol. Cela aidera à te protéger du froid venant du sol."
         },
         {
           "number": "2",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/3_2.jpg",
           "step": "Construction d'Abri",
           "desc": "Utilise des branches, des feuilles et d'autres matériaux disponibles pour construire un abri rudimentaire. Assure-toi qu'il est bien fermé pour minimiser l'exposition aux éléments."
         },
         {
           "number": "3",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/3_3.jpg",
           "step": "Allumage d'un Feu",
           "desc": "Maîtrise les techniques primitives pour allumer un feu. Le feu fournit non seulement de la chaleur, mais peut également être utilisé pour cuire des aliments et éclairer l'abri."
         },
         {
           "number": "4",
-          "imageUrl": "/static/Need1-Step1.jpg",
+          "imageUrl": "/static/3_4.jpg",
           "step": "Fabrication de Vêtements ou Couvertures",
           "desc": "Utilise des peaux d'animaux ou d'autres matériaux disponibles pour créer des vêtements ou des couvertures qui te protègeront du vent et du froid. La couche isolante aidera à conserver la chaleur corporelle."
         }
