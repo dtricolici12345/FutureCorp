@@ -1,25 +1,11 @@
-import { useEffect, useState } from "react";
-
-import Carousel from "./../components/Carousel.jsx"
-
-import Logo from "./../assets/Logo.png"
+import CarouselComponent from "./../components/CarouselComponent.jsx"
 
 import "./Needs.css";
 
 function Needs() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    fetch("")
-    .then(res => res.json)
-    .then(data => setData(data))
-  }, [])
-
   return (
     <section id="needs">
-      <img className="logo" src={Logo} alt="Logo" />
-      <h1>J'ai soif !</h1>
-      <Carousel data={data}/>
+      <CarouselComponent />
       {/* <div id="dots">
         <div className="dot"></div>
         <div className="dot selected"></div>

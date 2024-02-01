@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #D3D3D3;
+  --container-color: #E0E0E0;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: var(--bg-color);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header {
+  text-align: center;
+}
