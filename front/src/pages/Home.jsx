@@ -9,14 +9,14 @@ function Home() {
   return (
     <div className="home-page">
     <div className="icon-container">
-      <ButtonNav linkURL="/nourriture" imgSrc={image1} altImg="nourriture"/>
-      <ButtonNav linkURL="/boisson" imgSrc={image2} altImg="boisson"/>
-      <ButtonNav linkURL="/rechauffage" imgSrc={image3} altImg="rechauffage"/>
-      <ButtonNav linkURL="/repo" imgSrc={image4} altImg="repo"/>
+      <ButtonNav linkURL="/Needs/0" imgSrc={image1} altImg="nourriture"/>
+      <ButtonNav linkURL="/Needs/1" imgSrc={image2} altImg="boisson"/>
+      <ButtonNav linkURL="/Needs/2" imgSrc={image3} altImg="rechauffage"/>
+      <ButtonNav linkURL="/Needs/3" imgSrc={image4} altImg="repo"/>
       
     </div>
   </div>
-  )
+  );
 }
 
 export default Home;
