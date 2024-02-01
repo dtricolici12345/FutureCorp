@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import Carousel from "./../components/CarouselComponent.jsx"
+import Carousel from "./../components/Carousel.jsx"
 
 import Logo from "./../assets/Logo.png"
 
@@ -17,15 +17,15 @@ function Needs() {
 
   return (
     <section id="needs">
-      <img src={Logo} alt="Logo" />
+      <img className="logo" src={Logo} alt="Logo" />
       <h1>J'ai soif !</h1>
       <Carousel data={data}/>
-      <div id="dots">
+      {/* <div id="dots">
         <div className="dot"></div>
         <div className="dot selected"></div>
         <div className="dot"></div>
         <div className="dot"></div>
-      </div>
+      </div> */}
     </section>
   );
 }
