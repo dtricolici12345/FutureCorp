@@ -10,7 +10,7 @@ function Needs() {
 
   const [carouselData, setCarouselData] = useState([]);
   const [objective, setObjective] = useState("");
-  const [solution, setSolution] = useState("");
+  const [solution, setSolution] = useState([]);
   const [buttonVisible, setButtonVisible] = useState(false);
   const [isModalClosed, setIsModalClosed] = useState(true);
 
@@ -39,16 +39,27 @@ function Needs() {
   return (
     <>
       <section id="needs">
+        
         <div
           className={`needs-overlay ${isModalClosed ? "modal-closed" : ""}`}
         />
-        <div className={`card-modal ${isModalClosed ? "modal-closed" : ""}`}>
-          <img src="" />
-          <h2>Test</h2>
-          <button type="button" onClick={handleCloseModal}>
-            Fermer
-          </button>
-        </div>
+          <div className={`card-modal ${isModalClosed ? "modal-closed" : ""}`}>
+            {/* <img src={`http://localhost:4242${slideData.imageUrl}`} /> */}
+        {solution.map((elem) => {
+            {console.info(elem.titleSolution)}
+            return (
+            <>
+            <h2>{elem.titleSolution}</h2>
+            <img src={`http://localhost:4242${elem.imageSolution}`} alt="" />
+            </>
+            )
+          })}
+            <button type="button" onClick={handleCloseModal}>
+              Fermer
+            </button>
+          </div>
+       
+        
         <CarouselComponent carouselData={carouselData} objective={objective} />
         {/* <div id="dots">
         <div className="dot"></div>
