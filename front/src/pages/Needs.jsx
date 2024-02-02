@@ -39,27 +39,31 @@ function Needs() {
   return (
     <>
       <section id="needs">
-        
         <div
-          className={`needs-overlay ${isModalClosed ? "modal-closed" : ""}`} onClick={handleCloseModal}
+          className={`needs-overlay ${isModalClosed ? "modal-closed" : ""}`}
+          onClick={handleCloseModal}
         />
-          <div className={`card-modal ${isModalClosed ? "modal-closed" : ""}`}>
-            {/* <img src={`http://localhost:4242${slideData.imageUrl}`} /> */}
-        {solution.map((elem) => {
-            {console.info(elem.titleSolution)}
+        <div className={`card-modal ${isModalClosed ? "modal-closed" : ""}`}>
+          {/* <img src={`http://localhost:4242${slideData.imageUrl}`} /> */}
+          {solution.map((elem) => {
+            {
+              console.info(elem.titleSolution);
+            }
             return (
-            <>
-            <h2>{elem.titleSolution}</h2>
-            <img src={`http://localhost:4242${elem.imageSolution}`} alt="" />
-            </>
-            )
+              <>
+                <h2>{elem.titleSolution}</h2>
+                <img
+                  src={`http://localhost:4242${elem.imageSolution}`}
+                  alt=""
+                />
+              </>
+            );
           })}
-            {/* <button type="button" onClick={handleCloseModal}>
+          {/* <button type="button" onClick={handleCloseModal}>
               Fermer
             </button> */}
-          </div>
-       
-        
+        </div>
+
         <CarouselComponent carouselData={carouselData} objective={objective} />
         {/* <div id="dots">
         <div className="dot"></div>
@@ -71,7 +75,7 @@ function Needs() {
           className={`btn-modal ${buttonVisible ? "btn-modal-visible" : ""}`}
           onClick={handleBtnCLick}
         >
-          Envie d'une autre vie ?
+          Retour vers le passé
         </button>
       </section>
     </>
