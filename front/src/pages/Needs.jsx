@@ -41,7 +41,7 @@ function Needs() {
       <section id="needs">
         
         <div
-          className={`needs-overlay ${isModalClosed ? "modal-closed" : ""}`}
+          className={`needs-overlay ${isModalClosed ? "modal-closed" : ""}`} onClick={handleCloseModal}
         />
           <div className={`card-modal ${isModalClosed ? "modal-closed" : ""}`}>
             {/* <img src={`http://localhost:4242${slideData.imageUrl}`} /> */}
@@ -54,9 +54,9 @@ function Needs() {
             </>
             )
           })}
-            <button type="button" onClick={handleCloseModal}>
+            {/* <button type="button" onClick={handleCloseModal}>
               Fermer
-            </button>
+            </button> */}
           </div>
        
         
