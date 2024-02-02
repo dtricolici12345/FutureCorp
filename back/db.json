@@ -2,14 +2,13 @@
   {
     "id": 1,
     "title": "J'ai soif",
-    "imageThumbnail": "/static/Need1-Step1.jpg",
     "objective": "Trouver de l'eau",
     "solution": [
       {
-      "titleSolution": "Solution 1",
-      "imageSolution": "/static/1_1.jpg"
-    }
-  ],
+        "titleSolution": "En -150 avant Abdou",
+        "imageSolution": "/static/sol1.png"
+      }
+    ],
     "instructions": [
       {
         "number": "1",
@@ -40,14 +39,13 @@
   {
     "id": 2,
     "title": "J'ai faim",
-    "imageThumbnail": "/static/Need1-Step1.jpg",
     "objective": "Trouver de la nourriture",
     "solution": [
       {
-      "titleSolution": "Solution 2",
-      "imageSolution": "/static/2-1.jpg"
-    }
-  ],
+        "titleSolution": "En -100 avant Abdou",
+        "imageSolution": "/static/sol2.png"
+      }
+    ],
     "instructions": [
       {
         "number": "1",
@@ -78,14 +76,13 @@
   {
     "id": 3,
     "title": "J'ai froid",
-    "imageThumbnail": "/static/Need1-Step1.jpg",
     "objective": "Se réchauffer",
     "solution": [
       {
-      "titleSolution": "Solution 3",
-      "imageSolution": "/static/3_1.jpg"
-    }
-  ],
+        "titleSolution": "En -80 avant Abdou",
+        "imageSolution": "/static/sol3.png"
+      }
+    ],
     "instructions": [
       {
         "number": "1",
@@ -116,14 +113,13 @@
   {
     "id": 4,
     "title": "Je m'ennuie",
-    "imageThumbnail": "/static/Need1-Step1.jpg",
     "objective": "Se divertir",
     "solution": [
       {
-      "titleSolution": "Solution 4",
-      "imageSolution": "/static/4-1.jpg"
-    }
-  ],
+        "titleSolution": "En -50 avant Abdou",
+        "imageSolution": "/static/sol4.png"
+      }
+    ],
     "instructions": [
       {
         "number": "1",
